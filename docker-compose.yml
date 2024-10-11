@@ -1,0 +1,10 @@
+services:
+  jupyter:
+    build:
+      context: .
+    working_dir: /notebooks
+    volumes:
+      - ${PWD}/notebooks:/notebooks
+    ports:
+      - "8888:8888"
+    command: conda run -n qiime2-amplicon-2024.5 jupyter notebook --ip 0.0.0.0 --port=8888 --allow-root --no-browser --NotebookApp.token=''
