@@ -379,13 +379,15 @@ xcuserdata/
 
 # End of https://www.toptal.com/developers/gitignore/api/osx,windows,linux,intellij,vscode,xcode,python,docker
 
-notebooks/data
 notebooks/taxonomy
-!data/Sample*
-!data/krona-prot.qzv
-!data/manifest.csv
-!data/sample-metadata.csv
-!data/taxonomy.qza
+notebooks/data/
+!notebooks/data/
+notebooks/data/*
+!notebooks/data/Sample**
+!notebooks/data/krona-plot.qzv
+!notebooks/data/manifest.csv
+!notebooks/data/sample-metadata.csv
+!notebooks/data/taxonomy.qza
 
 notebooks/taxonomy/# Created by https://www.toptal.com/developers/gitignore/api/pycharm
 

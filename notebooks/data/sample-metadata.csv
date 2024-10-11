@@ -1,0 +1,12 @@
+sample-id,surface,location,material,tube
+#q2:types,categorical,categorical,categorical,categorical
+Sample01,floor,studio,carpet,3540951778
+Sample02,floor,hallway,carpet,3540951780
+Sample03,floor,outdoor,brick,3540951774
+Sample04,wall,entrance area,gypsum board,3540951785
+Sample05,wall,tech lab,glass,3540951770
+Sample06,wall,toilet door handle,metal,3540950539
+Sample07,doll,reception,felt,3540951768
+Sample08,leaf,outdoor by the waterfall,leaf,3540950531
+Sample09,trash can lid,toilet area,metal,3540951777
+Sample10,negative control,studio,air,3540951776
