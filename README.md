@@ -7,6 +7,7 @@
 ### 結果だけ見る場合
 
 1. [QIIME2 View](https://view.qiime2.org/)で`notebooks/data/krona-plot.qza`を開く
+  * [Release](https://github.com/Eotel/ccbt-camp4-krona-sample/releases/)から直接ダウンロードもできます
 
 ### 自分で解析する場合
 
